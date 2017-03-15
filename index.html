@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mad-Libs!</title>
+  </head>
+  <body ng-app="madlibApp" ng-controller="madlibController">
+
+    <h1>Mad-Libs</h1>
+
+    <a href="#/startStory">Start Story</a>
+    <a href="#/seeStory">See Story</a>
+
+
+    <ng-view></ng-view>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js" charset="utf-8"></script>
+    <script src="https://code.angularjs.org/1.6.2/angular-route.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <script src="factory.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+  </body>
+</html>
